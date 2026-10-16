@@ -163,6 +163,27 @@ AI khud kuch yaad nahi rakhta, wo note tool yaad rakhta hai. memory ha new chat 
 Jo note save hua wo ek baar parh lein, aur ghalat line delete kar dein.
 AI purani baat par chal raha ho to chat mein hi theek karwa dein: “Main ab retail mein kaam nahi karti”.
 Koi alag ya private sawal ho to Incognito (Claude) ya Temporary Chat (ChatGPT, Gemini) use karein, wahan memory use nahi hoti.
+18.Memory ki ek warning
+Doctor, lawyer, accountant ya teacher ho to client ya student ki pehchan wali details memory mein na dalein.
+Aisa kaam clean chat ya alag project mein karein.
+19. Memory aur purani chat ka shor
+Memory ke saath naya chat bilkul khali nahi hota, aap ka summary saath hota hai.
+Agar AI har chat mein wohi ghalat andaza lagaye, to chat nahi, memory theek karein.
+20. Context rot kya hai
+Context rot = ek hi lambe chat mein kai alag topics hon to jawab ki quality girne lagti hai.
+Example: Pehle workout plan, phir spreadsheet ka error, phir thank-you note. Workout ki baatein abhi bhi chat mein hain aur AI ko kheenchti hain.
+Hal: topic badle to naya chat shuru karein.
+21. Chat kharab ho raha hai, kaise pata chale (4 nishaniyan)
+AI purani, be-taalluq baaton ka zikr karne lagta hai.
+Jawab lambe aur dhundle hone lagte hain.
+AI 5 turns pehle di hui limit bhool jata hai.
+AI baar baar maafi maangta hai magar kaam aage nahi barhta.
+22. Compacting kya hai
+Compacting = chat bohat lamba ho to tool shuru ki baaton ko chhote summary mein badal deta hai.
+Kahani bachti hai, magar chhoti details (kisi library ka naam, tay kiya hua rule) kho sakti hain.
+Isi liye chat sirf “working memory” hai, jagah-jagah save karne ki jagah nahi. Zaroori cheez file ya note mein save karein.
+summary usi chat ke context window ke andar hoti hai, purani turns ki jagah
+
 
 
 
