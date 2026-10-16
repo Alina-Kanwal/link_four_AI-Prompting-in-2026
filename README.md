@@ -267,6 +267,10 @@ Scenario trigger (paper mein ye dikhe to):
 AI har baar taareef kare ya sirf haan kehta rahe: sycophancy, fix hai neutral wording, rubric aur number.
 Prompt mein find, defend, confirm, prove, support jaisa lafz ho: bait hai, evaluate ya compare mein badlein.
 AI jawab bana kar deta rahe jab use maloom hi na ho: “I don’t know” ki ijazat dein aur unverified mark maangein.
+Document ka prompt (copy karne ke qabil): “Grade each criterion out of 10, with a one-sentence justification. Then tell me how to take each one to the next level, including the ones that already scored high. If something is at 9, tell me how to get to 9.5. There is always a next level.”
+Matlab: AI se har criterion par number aur ek line ki wajah maangein, aur phir har ek ko behtar karne ka tareeqa bhi, chahe score pehle se high ho.
+
+
 
 
 
