@@ -269,6 +269,13 @@ Prompt mein find, defend, confirm, prove, support jaisa lafz ho: bait hai, evalu
 AI jawab bana kar deta rahe jab use maloom hi na ho: “I don’t know” ki ijazat dein aur unverified mark maangein.
 Document ka prompt (copy karne ke qabil): “Grade each criterion out of 10, with a one-sentence justification. Then tell me how to take each one to the next level, including the ones that already scored high. If something is at 9, tell me how to get to 9.5. There is always a next level.”
 Matlab: AI se har criterion par number aur ek line ki wajah maangein, aur phir har ek ko behtar karne ka tareeqa bhi, chahe score pehle se high ho.
+Brainstorm-iterate loop = pehle context do, kai options maango, feedback do, dobara maango, aur sirf aakhir mein ek option ko poora likhwao.
+Four kinds of ask = brainstorming, research, drafting, analysis (har ek mein “grip” alag hota hai).
+**Chhota example:** Aap ko naraz customer ko email likhna hai.
+1. **Context:** "Order 10 din late hai, customer naraz hai, refund ya replacement de sakte hain."
+2. **Options:** "3 tones mein reply do: maafi-first, solution-first, friendly."
+3. **Feedback:** "Option 2 pasand, bas 'unfortunately' hata do."
+4. **Final:** "Option 2 ka poora email likho."
 
 
 
