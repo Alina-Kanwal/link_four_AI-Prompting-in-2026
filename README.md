@@ -190,13 +190,11 @@ Ek aur sawal likh kar chat ko bachane se ye tez hai.
 Purane chat ka koi kaam ka plan ya draft ho to pehle file mein save kar lein.
 
 24. Projects kya hain aur kab banayein
-
 Projects = ek workspace jahan aap ek baar files aur instructions rakh dein, aur us ke andar har naya chat unhein khud dekh le.
 Banayein jab aap ek hi topic ke chats mein wohi files ya wohi limits baar baar paste kar rahi hon.
 3 sawal: kya ye kaam baar baar aata hai? Kya background har baar wohi hai? Kya jawab ki shakal har baar wohi hai? 2 sawal ka jawab haan ho to project banayein.
-
+Project aap khud banati hain: tool mein Projects (Claude aur ChatGPT) ya Notebooks (Gemini) mein ja kar files aur instructions ek baar manually dalti hain, aur wahi project ke andar save rehti hain.
 25. Projects ke 3 examples
-
 Tax project: pichle saal ka return aur forms, aur instruction “har step ka hisaab dikhao”.
 School project: school calendar, aur instruction “jawab se pehle tareekh calendar se check karo”.
 Writing project: aap ki likhi hui 3 samples, aur instruction “meri awaaz mein likho, extra hedging mat jodo”.
@@ -214,6 +212,61 @@ AI ka jawab generic hai: context missing hai, files, limits ya audience attach k
 Lamba chat kai topics par chal raha hai aur quality gir rahi hai: naya chat.
 Wohi files baar baar paste ho rahi hain: Project.
 AI har chat mein wohi ghalat andaza lagata hai: memory theek karein.
+/////////////////////////////////////////////////////Reasoning, or “think hard” (Part 2)
+Reasoning = jawab dene se pehle model ka apne liye likha hua kaam (soch-bichaar).
+Extended thinking = model jawab se pehle zyada der tak sochta hai.
+Points
+Pehle (2023 tak) hard prompt ke liye salah thi “think step by step” (har qadam sochkar batao), magar ab ye zyada tar purani ho chuki hai.
+Naye models mein reasoning mode built-in hota hai, aap use seedha on karte hain.
+On karne ke 3 tareeqe:
+Plain language mein likhein: “think hard” ya “think carefully before answering” (har modern tool mein chalta hai).
+Interface mein thinking-mode ka switch dabayein (jahan diya ho).
+Kuch products mein kuch nahi karna parta, tool khud tay karta hai ke sawal mushkil hai aur thinking on kar deta hai.
+Extended thinking mein model kai seconds, aur mushkil sawalon par kabhi 10 minute se zyada sochta hai (ye slow typing nahi hai).
+Is waqt model kai tareeqe aazmata hai aur jawab likhne se pehle apna kaam khud check karta hai.
+Alina, 4 lines mein:
+1. Maan lein ek kaam aisa hai jo insaan ko poora karne mein **1 ghanta** lagta hai (jaise ek report ka draft likhna).
+2. METR ne dekha ke early 2025 mein AI aise 1 ghante wale kaam **bharosay se khud poora kar sakta tha**, jabke mid-2024 mein sirf 7 minute wale kaam kar sakta tha.
+3. **Example:** Pehle AI sirf "ek email likho" (7 minute ka kaam) kar paata tha, ab "poori report ka draft likho" (1 ghante ka kaam) bhi kar leta hai.
+4. Isi liye document kehta hai: AI ko ab bade, mushkil kaam dein, kyunke wo har 7 mahine mein double lambay kaam utha raha hai.
+Is ka matlab: AI ko asli, mushkil kaam dein, wo aap ki 2023 wali soch se zyada utha sakta hai.
+Power-user pattern: pehle context load karein, phir thinking maangein, phir structured jawab maangein (lambe paragraph ki jagah).
+Document ka example: do cars mein se ek chunni hai. Dono ki spec sheets, har ka insurance quote aur 6 mahine ki driving spreadsheet attach karein, likhein “Read everything. Think hard.” aur 3 cheezein maangein: (1) aap ki driving ke liye 3 asli trade-offs, (2) kaunsi car chunni chahiye aur kyun, (3) kin conditions mein recommendation badal jayegi.
+Kab use NA karein: chhote lookups, 1 paragraph ki summary, casual ideas ikattha karna (jaise “ek achha caption batao”), kyunke thinking mode slow hai aur aap ka usage budget zyada kharch karta hai.
+Kab use karein: wahan jahan aap kisi insaan ko waqt dena chahein, yani kai inputs aur kai trade-offs wala sawal.
+Thinking mode tez nahi hai, magar jo kaam colleague ko 2 din mein dete aur intezar karte, wo kuch minute aur thode budget mein hota hai, aur aap ka aadha din bachta hai.
+Har 6 mahine mein dobara test karein ke AI ab kya kar sakta hai.
+Page par is concept ke school students ke liye “Think Hard” slides bhi hain, jo isse do speed ke model (tez jawab vs dheema, soch kar jawab) ke taur par samjhati hain.
+Scenario trigger (paper mein ye dikhe to):
+Sawal mein kai inputs aur trade-offs hain aur jawab ghalat ya sathi aaya: thinking mode on karein (“think hard” ya switch).
+Sawal chhota lookup ya casual idea hai: thinking mode na chunein, wo slow hai aur budget khata hai.
+//////////////////////////////////////////////Sycophancy and how to neutralize it (Part 2)
+Sycophancy aur Rubric: pehle parh chuke hain (Concept 1), is liye skip.
+Neutral wording = sawal aise likhna ke us mein koi pasandida jawab ka ishaara na ho.
+Points
+Wajah: AI models is par train hote hain ke kis jawab ko thumbs up mila. Lakhon users mein agree karne par disagree se zyada thumbs up milte hain, to model wohi kehta hai jo aap sunna chahte hain.
+Washington Post analysis (Nov 2025): 47,000 ChatGPT conversations mein model ne “yes” ya “correct” se shuru karna “no” ya “wrong” se lagbhag 10 guna zyada kiya (jaise “that’s correct”, “you’re on the right track”).
+Khud check karein: “Don’t you think remote work is better?” aur “Is it true that office work is more productive?” dono par AI agree karke wajahein gina deta hai.
+Fix jadu nahi, neutral wording hai. Bait do tarah ka hota hai: saaf (“don’t you think X?”) aur chhupa hua (“find evidence that X works”).
+5 chhupe hue bait aur unki neutral shakal:
+“Find evidence that this strategy will work” ki jagah: “Evaluate this strategy. List the strongest arguments for and against.”
+“Why is approach A better than B?” ki jagah: “Compare A and B. Score each on cost, risk, time.”
+“Help me defend my decision to hire X” ki jagah: “What’s the strongest counter-argument I should be ready for?”
+“Tell me my draft is ready to send” ki jagah: “Score this draft 1-10 on these 4 criteria. For each, tell me the change that would raise the score most.”
+“Confirm that this code is correct” ki jagah: “Find any bug, edge case or unstated assumption. If none, say so.”
+Bait wale lafz: find, defend, confirm, prove, support (jawab pehle se de dete hain). Behtar lafz: evaluate, compare, critique, find any, list both sides.
+Rule: dono options bina pasand batayein rakhein, phir har ek ke pros aur cons maangein. Agar “isn’t X true” likh rahi hon to likhein “to what extent, if at all, is X true?”
+“I don’t know” ki ijazat dein: wohi dabao jo AI ko agree karwata hai use jawab dene par bhi majboor karta hai, aur khaali jagah par wo kuch bana deta hai. Likhein: “If you are not sure, say so. Mark anything you could not confirm as unverified.” (Concept 8 mein recipe cards par 4 words [unclear] mark hue.)
+Rubric use karein: bina rubric ke vague standards “great work” mein dhal jate hain, aur named standards AI ko dekhne par majboor karte hain (yes/no checks aur named criteria).
+Number zaroor maangein. Har rubric item par fixed scale (1 to 5 ya 1 to 10) aur ek line ki wajah. 2 faide:
+AI ke liye: taareef sasti hai, specific number nahi. 6 ya 7 mein se chunna ho to AI ko commit karna parta hai aur wo ghaur se dekhta hai. Scores aksar prose se kam aate hain.
+Aap ke liye: “strong” se kuch hasil nahi hota. Number se compare, rank aur track hota hai (4 aur 7 batata hai pehle kya theek karein; aaj ka 6 aur pichle hafte ka 5 batata hai draft behtar hua ya nahi).
+Document ka prompt (copy karne ke qabil): “Grade each criterion out of 10, with a one-sentence justification. Then tell me how to take each one to the next level, including the ones that already scored high. If something is at 9, tell me how to get to 9.5. There is always a next level.”
+Is aakhri line se rubric faisla nahi, tool ban jati hai: AI ye nahi keh sakta ke aap kaam khatam kar chuki hain, ye faisla aap ka hai.
+Scenario trigger (paper mein ye dikhe to):
+AI har baar taareef kare ya sirf haan kehta rahe: sycophancy, fix hai neutral wording, rubric aur number.
+Prompt mein find, defend, confirm, prove, support jaisa lafz ho: bait hai, evaluate ya compare mein badlein.
+AI jawab bana kar deta rahe jab use maloom hi na ho: “I don’t know” ki ijazat dein aur unverified mark maangein.
 
 
 
