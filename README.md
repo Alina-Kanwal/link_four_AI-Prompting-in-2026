@@ -137,6 +137,14 @@ Claude ki instructions careful thinking aur honesty maangti hain.
 ChatGPT ki warmth aur broad helpfulness.
 Gemini ki short answers jo sources se backed hon.
 Ek hi sawal, 3 briefings, 3 tones. Isi liye AI aap ke rude hone par bhi polite rehta hai, kuch requests refuse karta hai, aur aise safety warnings lagata hai jo aap ne nahi maange. Ye personality traits nahi, instructions hain.
+har model alag data aur training se bana hai, is liye uski taqat (reasoning, coding, language) alag rehti hai.
+Teeno tools alag kyun lagte hain: Personality model mein nahi, company ki instructions mein hai. Claude careful aur honest, ChatGPT warm aur helpful, Gemini short aur sourced.
+Exam ke liye yaad rakhein: tone aur refusals ka farq system prompt se aata hai, kaam ki quality ka
+wo instuctions jo hum khud Settings mein ja kar khud likhni hoti hain like ""I woki in custom suppot", wo chat ke andar bolne se khud save nahi hoti.
+Claude mein Personal preferences, ChatGPT mein Personalization > Custom instructions, Gemini mein Personalization settings m save hongi.
+Apni layer chhoti rakhein: sirf wo likhein jo AI khud nahi nikal sakta (job, audience, hard limits), aur har kuch mahine mein wo lines delete karein jin ke bina farq nahi parta. Anthropic ne July 2026 mein apni zyada tar standing instructions delete kin aur quality kam nahi hui.
+Bare vs context-rich prompt = sirf sawal likhna “bare” hai, aur sawal ke saath apni files ya details dena “context-rich” hai, aur dusre se jawab aap ke hisaab se aata hai.
+Teacher ka example: Lesson plan ke saath syllabus, graded worksheets aur test format attach kiye, to plan generic(normal) se class k lea kaam ka ban gaya.
 
 
 
