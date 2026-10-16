@@ -183,6 +183,38 @@ Compacting = chat bohat lamba ho to tool shuru ki baaton ko chhote summary mein 
 Kahani bachti hai, magar chhoti details (kisi library ka naam, tay kiya hua rule) kho sakti hain.
 Isi liye chat sirf “working memory” hai, jagah-jagah save karne ki jagah nahi. Zaroori cheez file ya note mein save karein.
 summary usi chat ke context window ke andar hoti hai, purani turns ki jagah
+23. Chat kharab ho jaye to
+
+Naya chat kholein, 1 ya 2 zaroori baatein paste karein, aur aage chalein.
+Ek aur sawal likh kar chat ko bachane se ye tez hai.
+Purane chat ka koi kaam ka plan ya draft ho to pehle file mein save kar lein.
+
+24. Projects kya hain aur kab banayein
+
+Projects = ek workspace jahan aap ek baar files aur instructions rakh dein, aur us ke andar har naya chat unhein khud dekh le.
+Banayein jab aap ek hi topic ke chats mein wohi files ya wohi limits baar baar paste kar rahi hon.
+3 sawal: kya ye kaam baar baar aata hai? Kya background har baar wohi hai? Kya jawab ki shakal har baar wohi hai? 2 sawal ka jawab haan ho to project banayein.
+
+25. Projects ke 3 examples
+
+Tax project: pichle saal ka return aur forms, aur instruction “har step ka hisaab dikhao”.
+School project: school calendar, aur instruction “jawab se pehle tareekh calendar se check karo”.
+Writing project: aap ki likhi hui 3 samples, aur instruction “meri awaaz mein likho, extra hedging mat jodo”.
+Project mein naya chat kholne se sirf purane chat ka shor jata hai, files aur instructions rehti hain.
+26. 3 tools, 3 naam, ek idea
+Claude aur ChatGPT mein naam Projects hai, aur ye AI ke behavior aur instructions par zor dete hain.
+Gemini mein naam Notebooks hai (aur NotebookLM), aur ye sources par zor dete hain: PDFs, links, videos, aur har jawab ke saath click karne wale citations.
+Rule: study ya research jo waqt ke saath barhe to Gemini Notebooks. Jahan AI ko har chat mein ek jaisa behave karna ho to Claude ya ChatGPT Projects.
+27. Free plan ki limits (mid-2026)
+Claude: 5 projects tak.
+ChatGPT: har project mein 5 files tak.
+Google: Notebooks aur NotebookLM dono free.
+Scenario trigger (paper mein ye symptom dikhe to):
+AI ka jawab generic hai: context missing hai, files, limits ya audience attach karein.
+Lamba chat kai topics par chal raha hai aur quality gir rahi hai: naya chat.
+Wohi files baar baar paste ho rahi hain: Project.
+AI har chat mein wohi ghalat andaza lagata hai: memory theek karein.
+
 
 
 
