@@ -343,6 +343,12 @@ jawab kharab ho to pehle dekho ke aap ne kaam ki kaunsi qism par kaunsi grip lag
 4 steps: Load (AI ko sab batao), Options (kai ideas maango), Feedback (kya pasand, kya nahi), Repeat (sahi hone tak).
 Ek secret Step 0 bhi hai: pehle research.
 Iska matlab: wohi loop, school ke bachon ke liye chhote naamon mein.
+/////////////////////////////////////////////2. Image input
+**Acha (strong):** Poora scene, bade alag shapes, whiteboard aur diagrams, aur haath ki likhai (high stakes mein dobara check). Receipts aur notes type karwane mein bhi acha hai, lekin totals check karein.
+**Fail (weak):** Bareek detail (jaise gym machines pehchanna), bhari tasveer mein chhoti cheezein ginna, aur kinare ka chhota print parhna.
+Heading 3 (Image output) ka khulasa:
+Image banwane ke liye prompt khud likhne ke bajaye text AI se likhwayen, taake woh zyada ameer (rich) hota hai. Saath hi style ke alfaaz (cinematic, watercolor, anime waghera) seekh lein, kyunke yeh image model ko seedha control karte hain.
+
 
 
 
