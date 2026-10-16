@@ -145,6 +145,26 @@ Claude mein Personal preferences, ChatGPT mein Personalization > Custom instruct
 Apni layer chhoti rakhein: sirf wo likhein jo AI khud nahi nikal sakta (job, audience, hard limits), aur har kuch mahine mein wo lines delete karein jin ke bina farq nahi parta. Anthropic ne July 2026 mein apni zyada tar standing instructions delete kin aur quality kam nahi hui.
 Bare vs context-rich prompt = sirf sawal likhna “bare” hai, aur sawal ke saath apni files ya details dena “context-rich” hai, aur dusre se jawab aap ke hisaab se aata hai.
 Teacher ka example: Lesson plan ke saath syllabus, graded worksheets aur test format attach kiye, to plan generic(normal) se class k lea kaam ka ban gaya.
+Prompt bhejne se pehle 5 cheezein check karein Document (If neceesay then atach),  Limit (how lenghty text),  koi poani bt (like custome nrz hy) , outcome k shakl (like table, gmail ) , kis tk outcome jayega (boss, custoimer) 
+Sirf kaam ki cheezein dein
+Sirf kaam ki cheezein dein
+Zaroorat se zyada files na dein, kyunke har extra file AI ko confuse kar sakti hai.
+Ek jaisi dohri files hata dein.
+Har file ke saath likh dein ke wo kis liye hai.
+Jawab kamzor aaye to “aur files de do” aksar ghalat hal hai.
+AI Fluency template = prompt likhne ka ek dhancha jis mein 5 parts hote hain: role, context, task, constraints, output format.
+Role (AI kaun hai, jaise “tum ek customer support agent ho”), Context (background, jaise “customer naraz hai”), Task (kya karna hai, jaise “reply likho”).
+Constraints (limits, jaise “5 lines, polite”), Output format (shakal, jaise “email”).
+Checklist aur template ek hi aadat ke do rup hain: checklist yaad dilati hai ke kya attach karna bhool sakti hain, aur template batata hai ke har cheez prompt mein kahan likhni hai.
+16. Memory kya hai
+Memory = tool aap ke baare mein ek note likhta hai aur har naye chat mein AI ke samne rakh deta hai.
+AI khud kuch yaad nahi rakhta, wo note tool yaad rakhta hai. memory ha new chat p lago hoti hy " like ag m khi chat m boldo mujh short ans do hmesha" tw y note tool yad khyga, har bola hua lafz khud save nahi hota..
+17. Memory ki 3 aadatein
+Jo note save hua wo ek baar parh lein, aur ghalat line delete kar dein.
+AI purani baat par chal raha ho to chat mein hi theek karwa dein: “Main ab retail mein kaam nahi karti”.
+Koi alag ya private sawal ho to Incognito (Claude) ya Temporary Chat (ChatGPT, Gemini) use karein, wahan memory use nahi hoti.
+
+
 
 
 
