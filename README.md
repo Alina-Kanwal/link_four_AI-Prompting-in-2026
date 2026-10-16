@@ -118,6 +118,25 @@ Har claim ke baad source maangein: “Har claim ke baad source cite karo.”
 Unchecked cheez par mark lagwayein: “Agar koi claim cited sources se support nahi hota to usay ‘unverified’ mark karo.”
 Ye 3 lines sab se common failure kam karti hain: AI kai sources ko mila kar ek confident sentence bana deta hai jo kisi ek source mein bhi nahi hoti.
 Exam ke liye: Scenario mein pehle dekhein ke jawab ko current facts chahiye ya kai sources. Current facts hon to web search, kai sources aur report ho to deep research, aur stable common fact ho to pretrained.
+///////////////////////////////////////////////////////: Context is the whole game
+Memory = ek note jo tool aap ke baare mein likhta hai aur har naye chat mein model ke samne rakhta hai.
+Context rot = jab ek lamba chat kai alag topics uthata hai to jawab ki quality gir jati hai.
+Compacting = tool purani chat turns ko ek chhote summary se badal deta hai taake jagah bane.
+Projects = ek workspace jis mein standing files aur instructions hon, aur har chat us se inherit kare.
+Model kitna parh sakta hai: Insaan ek waqt mein 4 se 7 cheezein yaad rakh sakta hai. Modern model hazaron words ek saath dekh sakta hai (lagbhag 750,000 words, yani Harry Potter ki pehli 4 se 5 kitabein). Magar bhari window ko wo kam dhyan se parhta hai, aur wo sirf wohi parh sakta hai jo aap usay dein.
+waitr ko apny kam k lea waiter ko sirf chand zaroori rules yaad hote hain, magar AI ki likhi hui instructions mein log har masle par ek nayi line jodte jate hain.
+Waqt ke saath wo list bohat lambi aur kuch lines ek dusre ki mukhalif ho jati hain, jab tak koi unhein kaat kar chhota na kare.
+System prompt mein aam taur par ye hota hai:
+Kaise behave karna hai (helpful, honest, careful).
+Kya refuse karna hai (harmful content, dangerous instructions).
+Kaisa tone rakhna hai (formal, chatty, concise).
+Kab disclaimer lagana hai (“I’m an AI and can’t provide medical advice”).
+Kaun se tools call kar sakta hai.
+Claude, ChatGPT aur Gemini alag kyun lagte hain: Ye personality model mein built-in nahi, company ne jo instructions pehle likhi hain unka natija hai.
+Claude ki instructions careful thinking aur honesty maangti hain.
+ChatGPT ki warmth aur broad helpfulness.
+Gemini ki short answers jo sources se backed hon.
+Ek hi sawal, 3 briefings, 3 tones. Isi liye AI aap ke rude hone par bhi polite rehta hai, kuch requests refuse karta hai, aur aise safety warnings lagata hai jo aap ne nahi maange. Ye personality traits nahi, instructions hain.
 
 
 
