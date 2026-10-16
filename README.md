@@ -269,13 +269,53 @@ Prompt mein find, defend, confirm, prove, support jaisa lafz ho: bait hai, evalu
 AI jawab bana kar deta rahe jab use maloom hi na ho: “I don’t know” ki ijazat dein aur unverified mark maangein.
 Document ka prompt (copy karne ke qabil): “Grade each criterion out of 10, with a one-sentence justification. Then tell me how to take each one to the next level, including the ones that already scored high. If something is at 9, tell me how to get to 9.5. There is always a next level.”
 Matlab: AI se har criterion par number aur ek line ki wajah maangein, aur phir har ek ko behtar karne ka tareeqa bhi, chahe score pehle se high ho.
-Brainstorm-iterate loop = pehle context do, kai options maango, feedback do, dobara maango, aur sirf aakhir mein ek option ko poora likhwao.
+///////////////////////////////////////////Brainstorm-iterate loop
+pehle context do, kai options maango, feedback do, dobara maango, aur sirf aakhir mein ek option ko poora likhwao.
 Four kinds of ask = brainstorming, research, drafting, analysis (har ek mein “grip” alag hota hai).
 **Chhota example:** Aap ko naraz customer ko email likhna hai.
 1. **Context:** "Order 10 din late hai, customer naraz hai, refund ya replacement de sakte hain."
 2. **Options:** "3 tones mein reply do: maafi-first, solution-first, friendly."
 3. **Feedback:** "Option 2 pasand, bas 'unfortunately' hata do."
 4. **Final:** "Option 2 ka poora email likho."
+ound 1 k lea zrori bat 
+Ji Alina, **haan**, ye Round 1 ka hi hissa hai.
+Round 1 = pehle research maangna (5 sab se mazboot arguments aur 3 counter-arguments, ek ek line mein). "Map the ground" us research round ka maqsad batata hai: likhne se pehle dekho ke pehle se kya maloom hai (competitors pehle, product name baad mein; prior research pehle, strategy memo baad mein).
+Ye koi alag round nahi hai.
+Iterate karne ke 2 tareeqe: Grading (score do) aur Diagnosis (kamzor pehle result mein bataein ke kaunsa hissa fail hua, jaise audience ignore hua, length toot gayi, tone behak gaya; sirf wohi hissa badal kar dobara bhejein).
+Score batata hai kitna door hain, diagnosis batata hai kya hilana hai.
+iterate karne ke 2 tareeqe:
+Grading = AI ko score dene ko kahein ([“is email ko 10 mein se score do”]).
+Diagnosis = aap khud batayein ke result mein kaunsa hissa kharab hai ([“tone rude hai, length zyada hai”]), aur sirf wohi hissa badalne ko kahein.
+Outline = post ka dhancha: sirf headings aur order, poora likha hua nahi.
+Critique = AI se kehna ke is kaam ki kamiyan aur kharabiyan batao.
+Grade = 10 mein se score dena.
+Revise = critique ke mutabiq kaam ko dobara theek karna.
+Heading = section ka title.
+Bullets = chhote chhote points (har heading ke neeche 3 se 5).
+Draft = poora likha hua pehla version.
+Ranked list = list jis mein sab se zyada asar wali tabdili sab se upar ho.
+Outline mein ek heading badalna: “Chhoti team ke fayde” ki jagah “Bari team ke fayde” likh dein, to poori post ka rukh badal jata hai (ab saari post bari team par hogi).
+Final draft mein ek lafz badalna: “acha” ki jagah “behtar” likh dein, to sirf wahi ek jagah badalti hai, baaqi post waisi hi rehti hai.
+Isi liye: outline mein ek chhoti tabdili ka asar bada hota hai, aur AI lafz-ba-lafz likhta hai, is liye pehle outline sahi karte hain taake poori shakal pehle se theek ho. KYUN KY DRIFT 600 wods p mushtammil ak bari tehrir hy is la wahan glti pkana mushkil hota hy.
+Draft = kisi cheez ka poora likha hua pehla version, jo abhi final nahi hota aur jis mein tabdili ho sakti hai
+Plateau = jab score barhna band ho jaye aur 9.5 ke aas paas ek jagah ruk jaye
+14. Roz ke 6 mauqe jahan loop use hota hai
+Har jagah wohi 2 cheezein: pehle context (apni situation), phir options aur feedback.
+Example (4-day trip): “Budget $800, dates 5-8 March, 2 log, hum museums se bore hote hain” likh kar 5 rough itineraries maango, 2 reject karo, baaqi par dobara maango. Iska matlab: pehle apni zaroorat batao, phir AI ke options ko apne taste se filter karo.
+Baaqi 5 mauqe isi shakal ke hain: product ka naam (10 naam maango, 3 chuno), mushkil email (3 tones, ek chuno), contractor chunna (3 quotes ko side-by-side score karo), learning path (3 course shapes, ek chuno), logo brief (5 mood-board directions, ek chuno).
+Iska matlab: loop sirf likhne ke liye nahi, kisi bhi faisle ke liye chalta hai.
+15. Grading har jagah lagu (Grading pehle parh chuke hain, is liye skip)
+Sirf naya hissa: score kaam ke apne criteria par hota hai.
+Example: itinerary par cost, pacing (rafta), group ka fit; naam par yaad rakhna (memorability), fit, risk; email par clarity (saaf hona), tone, asar.
+Iska matlab: har kaam ke liye apne checks banao, sab par ek jaisa score nahi lagta.
+Pacing = trip ki rafta, yaani din mein kitni jagahein dekhna hai (bohat zyada bhaag-daud ya aaram se).
+16. Kab rukein
+Apna kaam jo dobara use hoga (portfolio piece, template): score 9.5 ke aas paas thehre (plateau) tab tak chalein.
+Ek baar deliver hone wala kaam: pehle ruk jayein. Jab agla prompt kam badle aur aap ki apni 2 minute ki edit tez ho, to khud sambhal lein.
+Example: ek customer ko ek email bhejni hai. Do rounds ke baad aap ek lafz khud theek kar leti hain.
+Iska matlab: har kaam ko 9.5 tak le jana zaroori nahi, wo kaam ki ahmiyat par depend karta hai.
+
+
 
 
 
