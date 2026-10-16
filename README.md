@@ -314,6 +314,35 @@ Apna kaam jo dobara use hoga (portfolio piece, template): score 9.5 ke aas paas 
 Ek baar deliver hone wala kaam: pehle ruk jayein. Jab agla prompt kam badle aur aap ki apni 2 minute ki edit tez ho, to khud sambhal lein.
 Example: ek customer ko ek email bhejni hai. Do rounds ke baad aap ek lafz khud theek kar leti hain.
 Iska matlab: har kaam ko 9.5 tak le jana zaroori nahi, wo kaam ki ahmiyat par depend karta hai.
+17. One loop, four kinds of ask
+Har request brainstorm nahi hoti, aur sab se aam ghalti ye hai ke sahi loop ghalat grip (pakad, yani limits kitni kasi hain) ke saath chalate hain.
+Iska matlab: loop wohi hai, bas kahan kasna hai aur kahan dhila rakhna hai ye kaam ki qism se tay hota hai.
+18. Marketer ka example
+Marketer ne launch campaign ke liye model brief likha: channels, exact tagline, 3-part structure, tone, 40 words cap, aur 5 ideas maange. AI ne ek hi idea ke 5 rewordings (ek hi baat 5 tareeqe se) diye. 20 maange to 20 padosi ideas aaye.
+Kuch toota nahi, bas us ke limits ne structure, tagline, tone aur length sab pin kar diye, sirf chhota sa kona bacha.
+Iska matlab: brainstorming mein bohat zyada limits lagao to AI naye ideas ki jagah ek hi idea ke versions deta hai.
+19. Fix: zyada lafz nahi, limits kam
+1. **Options maangte waqt** sirf zaroori limits dein (product kya hai, kis ke liye hai, kya nahi chahiye), baaqi sab khula chhor dein, taake AI 5 sach mein alag ideas de.
+2. **Ek idea chun lene ke baad** uski poori detail dein (tone, length, structure) taake wo bilkul waisa bane jaisa chahiye.
+3. **Example:** Pehle "chai ke ad ke 5 alag ideas do, audience students hain" likhein. Ek chun kar phir likhein "ye idea 40 words mein, funny tone mein likho".
+20. 4 kinds of ask (grip kahan kasein, kahan dhila rakhein)
+Brainstorming: k wqt sub kuch phly btadena say AI avchy idea ni day payega
+“chai ke ad ke 5 alag ideas do, audience students hain, mazaak nahi” sahi hai. “Funny tone mein, 40 words, 3 parts mein” pehle hi likhna ghalat hai.
+Research (zameen ka naqsha chahiye): kasein scope, sources, kya evidence maana jayega; dhila rakhein jawab (aap kya paane ki ummeed rakhti hain wo mat batayein). Ulta karne par: aap ke andazon ka naqsha, zameen ka nahi.
+Drafting (ek cheez bani hui chahiye): sab kuch kasein(btayen) (voice, length, structure, facts, format). Ulta karne par: ghalat cheez ka fluent (saaf-suthra) draft.
+Analysis (data asal mein kya kehta hai): kasein data, definitions, exact sawal; dhila rakhein conclusion (kabhi mat bataiye). Ulta karne par: aisa analysis jo sawal poochne wale ki khushamad kare.
+Example (analysis): “50 complaints dekh kar batao sab se zyada wajah kya hai” sahi hai, “mujhe lagta hai delivery ki wajah hai, confirm karo” ghalat hai. Iska matlab: conclusion pehle likh dein to AI wohi sabit karta hai jo aap ne kaha.
+21. Concept 4 se takrao nahi
+Apni situation ka context (budget, audience, bad knee) hamesha poora dein.
+Jawab ki shakal par ye rule hai:
+Options maangte waqt khula chhorein (structure, tone, length mat batayein).
+Ek option chun kar usay banwate waqt tay karein (tone, length, structure sab batayein).
+22. 4 kinds chain banate hain
+jawab kharab ho to pehle dekho ke aap ne kaam ki kaunsi qism par kaunsi grip lagayi.
+23. School students ke liye “Magic Loop”
+4 steps: Load (AI ko sab batao), Options (kai ideas maango), Feedback (kya pasand, kya nahi), Repeat (sahi hone tak).
+Ek secret Step 0 bhi hai: pehle research.
+Iska matlab: wohi loop, school ke bachon ke liye chhote naamon mein.
 
 
 
