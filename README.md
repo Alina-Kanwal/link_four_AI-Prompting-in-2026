@@ -90,3 +90,46 @@ Document ka example: “neighborhood mein Halloween haunted house plan karo, per
 2. Aap se baat karne wale model tak sirf wohi **kata hua summary** pohanchta hai, poora page nahi.
 3. Summary banate waqt kuch details kho jati hain.
 4. Isi liye model kabhi page ki baat **ghalat report** kar deta hai, aur fix ye hai ke "exact sentence quote karo" likhein.
+Editorials = news ki wo likhaiyan jin mein likhne wale ki apni raye hoti hai, aur forums = wo jagah jahan aam log kuch bhi likhte hain; dono ko avoid karne ka matlab hai ke sirf pakke, official sources se facts lein.
+**Document ka non-software example:
+Ek example pompt diya gya jiska mksd dikhana hai ke deep research ek achhi briefing ke saath kab sahi tool hota hai.
+Sawal bada tha: kai sources aur current local facts chahiye the, isliye deep research chuna gaya.
+Prompt mein briefing thi: time period (24 months), trusted sources (EPA, utility reports, peer-reviewed studies), kya avoid karna hai (editorials, forums), aur report ki exact shape.
+Natija: 8 minute mein current data par bani report mili.
+Exam ke liye: sawal ko kai sources aur current facts chahiye hon to deep research chunein, aur prompt mein sources aur output ki shape batayein.
+Mode kaise steer karein (aap button nahi dabate, AI aap ke wording se chunta hai):
+“What is X” ya “Summarize Y” likhein to pretrained only chalta hai.
+“What’s the latest on X”, “today”, “this week”, ya kisi specific city ka naam likhein to web search chalta hai.
+“Research X thoroughly”, “produce a report with citations”, “use these source types” likhein to deep research chalta hai (jin tools mein deep research nahi, wahan extended web search).
+Files attach karein to files ke liye pretrained rehta hai. Agar prompt current info maange to web bhi search kar sakta hai.
+AI Google nahi hai. Sawal ye hai ke aap ko link chahiye ya answer.
+Google behtar hai jab:
+Kisi known site par jana ho, jaise “IRS ka form 1040 ka official page”.
+Product khareedna ho, jaise “2018 ThinkPad ka replacement charger”.
+AI behtar hai jab:
+Cheezein jodni hon: “3 diabetes medications compare karo aur recent evidence batao.” Google par 8 tabs parhne parte hain, AI ek jagah synthesize kar deta hai.
+Constraints ke saath plan banana ho: “Lisbon ka 4-day trip, 6 saal ke bachay ke saath, museums nahi.” AI saari constraints jodta hai.
+Photo ke saath sawal ho: “Mere tomato plant ke patte peelay kyun ho rahe hain?” Photo attach karne se AI behtar hai.
+“Kal ka weather” ke liye dono theek hain.
+Web-search results behtar karne ki 3 chhoti aadatein (har web-search prompt mein paste karein):
+Web-search results behtar karne ki 3 chhoti aadatein (har web-search prompt mein paste karein):
+Trusted sources ke naam likhein: “WHO, FDA aur peer-reviewed studies use karo, forums nahi.”
+Har claim ke baad source maangein: “Har claim ke baad source cite karo.”
+Unchecked cheez par mark lagwayein: “Agar koi claim cited sources se support nahi hota to usay ‘unverified’ mark karo.”
+Ye 3 lines sab se common failure kam karti hain: AI kai sources ko mila kar ek confident sentence bana deta hai jo kisi ek source mein bhi nahi hoti.
+Exam ke liye: Scenario mein pehle dekhein ke jawab ko current facts chahiye ya kai sources. Current facts hon to web search, kai sources aur report ho to deep research, aur stable common fact ho to pretrained.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
