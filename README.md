@@ -357,7 +357,6 @@ Purane models ki ghaltiyan: haath mein 6 ungliyan, signs par ulta seedha text, c
 Naye models (Nano Banana, ChatGPT Images) text theek likhte hain aur character ek jaisa rakhte hain.
 
 Is heading mein bataya gaya hai: Image AI kaise banata hai (noise saaf kar ke), aur naye models purani ghaltiyan kaafi had tak theek kar chuke hain.
-
 5. Ab bhi hone wali ghaltiyan aur unka hal
 Text ghalat likha aaye (jaise “HAPRY BIRTDAY”): text quotes mein likhein, aur 3 versions bana kar sahi wala chunein.
 Character badal jaye (panel 1 mein kaale baal, panel 2 mein bhoore): aisa model use karein jo character ek jaisa rakhe. Pehli image agle ke liye reference ke taur par dein.
@@ -375,6 +374,29 @@ Yaad rakhne wali baat: pehle structure (Claude se), phir finish (ChatGPT ya Gemi
 Example (cake): Ek baap ne beti ke liye cat wala cake chaha. Nano Banana se kai designs banwaye, beti ne ek chuna, baker ne wohi bana diya. Kharch takreeban $0.30.
 Iska matlab: Designer na ho tab bhi AI se aisa naksha ban sakta hai jis par professional kaam kar sake.
 Is heading mein bataya gaya hai: Diagram 2 tools se banta hai: pehle Claude structure banata hai, phir ChatGPT ya Gemini us ko khoobsurat banata hai.
+7. Audio (awaaz) andar aur bahar
+Bol kar prompt dena: bolne se zyada detail aati hai aur jawab behtar hota hai. Aise bolein jaise dost ko samjha rahe hon.
+Meeting ki recording dena: recording ya uska transcript (likha hua text) dein, aur kahein “decisions, baqi sawal, aur kis ka kya kaam hai bata do”. Document ke mutabiq ye bohat qeemti aadat hai.
+Chalte phirte use: safar ya walk ke dauran awaaz se baat kar sakte hain. Lekin bola hua edit nahi hota, is liye typing se thora rough hota hai.
+
+Audio mein kya acha aur kya kamzor:
+Saaf awaaz type karna: bohat acha. (Mushkil: bhari accent, technical lafz, ya kai log ek saath bol rahe hon.)
+Kaun kya bola: 2 log hon to theek, 4 ya zyada hon to kamzor. Kisi ko quote karne se pehle check karein.
+Tone, mazaq, jazbaat: behtar ho raha hai, par bharosa nahi. AI se kahein jahan shak ho wahan flag kare.
+Music: general AI kamzor hai, alag tool use karein.
+Live baat-cheet: casual baat ke liye acha, gehri technical baat mein text par jayein.
+Example (doctor): Doctor ne mareez ki razamandi se 45 minute ki baat record ki. AI se kaha: clinical note banao, jo samajh na aaye flag karo. 8 minute mein draft mila, check mein 5 minute lage. Typing mein 25 minute lagte.
+Iska matlab: AI ne doctor ka faisla nahi kiya, sirf typing ka kaam kiya.
+Is heading mein bataya gaya hai: AI ko awaaz de kar ya awaaz se jawab le kar kaam jaldi hota hai, lekin kaun bola aur tone par bharosa nahi karna.
+8. Aage kya hoga
+Ab ek hi prompt mein text, image, audio aur files sab mila kar de sakte hain (jaise image + voice memo + PDF + screenshot).
+Asal skill yeh hai: is kaam ke liye kaunse inputs sahi hain, ye chunna.
+Video avatars (AI se bani bolti hui shakal):
+Pehle se record shuda (HeyGen, Synthesia, D-ID): kai zabanon mein training ke liye pehle hi acha.
+Live wale (Tavus waghera): kam khatre ke kaam, jaise customer ke aam sawaal (FAQ) chhantna.
+Abhi roz ki aadat nahi. Jab kaam ko text ke bajaye chehra chahiye ho to ek baar try karein.
+Is heading mein bataya gaya hai: Aane wale waqt mein alag alag inputs mix hon ge, aur video avatars abhi sirf experiment ke liye hain.
+
 
 
 
