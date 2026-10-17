@@ -348,6 +348,33 @@ Iska matlab: wohi loop, school ke bachon ke liye chhote naamon mein.
 **Fail (weak):** Bareek detail (jaise gym machines pehchanna), bhari tasveer mein chhoti cheezein ginna, aur kinare ka chhota print parhna.
 Heading 3 (Image output) ka khulasa:
 Image banwane ke liye prompt khud likhne ke bajaye text AI se likhwayen, taake woh zyada ameer (rich) hota hai. Saath hi style ke alfaaz (cinematic, watercolor, anime waghera) seekh lein, kyunke yeh image model ko seedha control karte hain.
+4. Diffusion model (image banane wala tareeqa)
+Diffusion model wo AI hai jo image banata hai.
+Wo pehle ek noise se shuru karta hai. Noise matlab random dots ka grid, jisme koi tasveer nahi hoti (jaise purani TV par dhundli dots).
+Phir wo qadam ba qadam noise saaf karta jata hai, aur aakhir mein tasveer nikal aati hai.
+Text ki tarah ek ek lafz nahi likhta. Poori image ek saath aati hai. Is liye beech mein rok kar waqt nahi bacha sakte.
+Purane models ki ghaltiyan: haath mein 6 ungliyan, signs par ulta seedha text, comic mein character badal jana.
+Naye models (Nano Banana, ChatGPT Images) text theek likhte hain aur character ek jaisa rakhte hain.
+
+Is heading mein bataya gaya hai: Image AI kaise banata hai (noise saaf kar ke), aur naye models purani ghaltiyan kaafi had tak theek kar chuke hain.
+
+5. Ab bhi hone wali ghaltiyan aur unka hal
+Text ghalat likha aaye (jaise “HAPRY BIRTDAY”): text quotes mein likhein, aur 3 versions bana kar sahi wala chunein.
+Character badal jaye (panel 1 mein kaale baal, panel 2 mein bhoore): aisa model use karein jo character ek jaisa rakhe. Pehli image agle ke liye reference ke taur par dein.
+Haath ki ghalti (6 ungliyan): haath aadhe frame se bahar rakhein, jeb mein rakhein, ya saaf likh kar describe karein.
+Background mein ajeeb cheezein (cycle kursi mein mil jaye): simple background maangein ya khud describe karein.
+Ghalat shape (aap ko lambi image chahiye, aaya square): aspect ratio likhein. Aspect ratio matlab image ki chaudai aur lambai ka nisbat, jaise “16:9”.
+Is heading mein bataya gaya hai: Naye models mein bhi 5 masle aa sakte hain, aur har masle ka seedha hal hai.
+6. Diagram banane ki recipe (bina designer ke)
+Maqsad: 10 se 15 minute mein acha diagram. 4 steps:
+Step 1: Claude se kahein ke baat ko SVG mein banaye. SVG ek aisi tasveer hai jo text ki shakal mein likhi hoti hai. Result sahi hoga lekin saada (sirf dabbe aur arrows).
+Step 2: SVG ko PNG (aam image file) mein badlein, bari size mein (1600 se 2400 pixels).
+Step 3: PNG ko ChatGPT ya Gemini mein dein aur kahein: design khoobsurat karo, lekin sab labels aur arrows wahi rakho.
+Step 4: Agar koi label ya arrow ghalat ho jaye to type kar ke theek karwayein. 3 se 4 baar mein kaam ban jata hai.
+Yaad rakhne wali baat: pehle structure (Claude se), phir finish (ChatGPT ya Gemini se). Dono ka kaam ulta karne se natija kharab aata hai.
+Example (cake): Ek baap ne beti ke liye cat wala cake chaha. Nano Banana se kai designs banwaye, beti ne ek chuna, baker ne wohi bana diya. Kharch takreeban $0.30.
+Iska matlab: Designer na ho tab bhi AI se aisa naksha ban sakta hai jis par professional kaam kar sake.
+Is heading mein bataya gaya hai: Diagram 2 tools se banta hai: pehle Claude structure banata hai, phir ChatGPT ya Gemini us ko khoobsurat banata hai.
 
 
 
