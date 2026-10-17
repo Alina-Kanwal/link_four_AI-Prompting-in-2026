@@ -414,6 +414,32 @@ Is se aage 3 qareebi qisme hain:
 AI app-builders (v0, Bolt, Lovable): saada zaban mein bayan se poora web project bana dete hain.
 Command-line coding agents (Claude Code, OpenCode): asal codebase lete hain, kai files edit karte hain, tests chalate hain.
 File-aware desktop apps (Cowork, OpenWork): aap ki apni files par permission ke saath kaam karte hain. Inka zikar Concept 11 mein hai.
+Is heading mein bataya gaya hai: Chhoti app chat ke side panel mein artifact ban kar chalti hai jo edit, share aur update ho sakta hai. Bade kaam ke liye alag tools hain.
+3. Recipe: 3 slots
+Prompt mein 3 cheezein likhein:
+Goal: yeh cheez kya kare?
+Input: user kya dega?
+Output: user ko kya dikhega?
+Is heading mein bataya gaya hai: App ka prompt in 3 sawalon ka jawab hona chahiye: kya kare, kya mile, kya dikhe.
+4. Misalein jo aaj chal rahi hain
+Pomodoro timer: peela theme, 25 minute kaam ke session, 5 minute break, har cycle ke end par click ki awaaz.
+Bill splitter: total bill, tax aur doston ke naam dein. App tax samet bill baant kar har ka hissa dikhaye.
+Outfit picker: aaj ka mausam (temperature aur barish) aur closet ki cheezein dein. App libaas suggest kare.
+Fireworks simulator: screen par click karein, wahan rang birange fireworks dikhein.
+Place-obstacles game: user rukawatein aur goal rakhe, phir simulation chale jo goal tak pahunchne ki koshish kare.
+Is heading mein bataya gaya hai: Yeh 5 chhoti, ek screen par aane wali apps hain jo aaj ek prompt se ban jati hain.
+5. Abhi bhi mushkil kya hai
+Internet par multiplayer: networking, accounts aur players ko milana, ek prompt se bahar hai.
+Doosri zaban mein live coaching: jaise French tutor jo sune, pronunciation theek kare aur bolte waqt khud ko adapt kare. Yeh abhi bhi mushkil hai.
+Yaad rakhne wali line: jo cheez ek screen par aaye, jis mein accounts na hon aur bahar ki services na hon, wo chalti hai. Is se aage ek prompt kaafi nahi, aur aksar asal engineering chahiye hoti hai.
+Is heading mein bataya gaya hai: Ek screen wali, bina accounts aur bahari services wali app banti hai. Multiplayer ya live tutor jaise bade kaam ke liye engineering chahiye.
+6. Document ka example: typing game
+Ek baap software engineer nahi tha. Usne apni beti (7 saal) ke liye peela, billi wala typing game banwaya, kyunke teacher ne kaha tha ke bachche tez type kar sakte hain. Prompt sirf 3 jumlon ka tha:
+Goal: 7 saal ke bachche ke liye chhote aam lafz type karne ki practice.
+Input: lafz screen par aate hain, khiladi unhein neeche pahunchne se pehle type kare.
+Output: peela theme, ek pyari billi jo sahi lafz par khush ho, aur levels ke saath badhti raftaar.
+Natija: perfect nahi aur pehli koshish mein nahi, lekin ek ghante ke andar “bachche ke liye kaafi acha” ban gaya.
+Iska matlab: Asal skill coding nahi, saaf brief likhna aur rounds mein behtar karna hai.
 
 
 
