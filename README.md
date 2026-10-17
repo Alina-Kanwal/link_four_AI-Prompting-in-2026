@@ -444,6 +444,39 @@ Iska matlab: Asal skill coding nahi, saaf brief likhna aur rounds mein behtar ka
 (Part 3: Beyond text)
 Exam mein scenario aaye ke “AI ne numbers bataye, kya un par bharosa karein”, to is concept se aap pehchan sakengi ke jawab asli calculation se aaya ya sirf andaze se.
 1. Code execution kya hai
+Is heading mein bataya gaya hai: AI numbers ke sawal par apna program likh kar chalata hai, is liye hisaab dimaagi andaze se behtar hota hai.
+2. Pehle yaqeen karein ke code sach mein chala
+Yeh is poore section ki khamosh ghalti hai: model har sawal par code nahi chalata. Woh khud faisla karta hai, aap ke sawal ke andaaz par.
+Chhote sawalon par woh kabhi kabhi code chhod kar sirf ek nazar dekh kar jawab de deta hai. Jawab confident hota hai lekin peeche koi hisaab nahi. Bahar se yeh asli analysis jaisa hi lagta hai.
+3 aadatein:
+Seedha kahein: “Write and run code to answer this. Show me the code you ran.” Yeh ek line asal analysis aur sirf acha lagne wale andaze mein farq daal deti hai.
+Check karein ke code maujood hai: agar jawab mein koi code block nahi, to model ne shayad koi code nahi chalaya.
+Pehle ek jaanchne wali baat poochein: “Analysis se pehle mujhe file ki exact rows ki ginti, columns ke naam aur date range batao.” Agar model asal mein file parh raha hai to yeh jawab sahi honge. Agar andaza laga raha hai to rows ki ginti ajeeb tarah ka gol number hogi aur column ke naam sahi lagte hue bhi ghalat honge.
+Sab se mazboot tareeqa: model se tareeqa ka elaan karwayein: “Are you running code on the file, or estimating? If estimating, stop and run code instead.”
+Is heading mein bataya gaya hai: Model kabhi kabhi code chalaye bina andaza laga deta hai, is liye code maangein, code dekhein, aur pehle file ke asal tathya (rows, columns, dates) puchein.
+3. Document ka example: Bubble tea shop
+Ek chhoti dukaan ke paas saal bhar ki sales ka data hai (drinks, tareekhein, miqdar). Malik ne poocha: “Which drinks had the biggest changes in sales over the year? Graph them. Write and run code to answer this and show me the code you ran.”|
+Iska matlab: Jawab asli data par bana (code ke saath), is liye us par bharosa kiya ja sakta hai, aur AI ne sirf numbers nahi diye balke aage ka mashwara bhi diya.
+4. Yeh kin kaamon ke liye acha hai
+Ghar ka kharch: saal bhar ke bank ya card transactions dein. Poochein ke kaun si category barhi, kaun se mahine ajeeb the, aur kaun si bhooli hui subscriptions hain.
+Zaati tracking: daud, chalna, neend, wazan, screen time. Jo bhi app CSV (rows aur columns wali saadi spreadsheet file) export kar sake, us se aap ko apne saal bhar ka data mil jata hai.
+Chhote karobar ke records: sales, inventory, customer list, kharch ki files.
+Jo bhi spreadsheet aap ko kisi ne bheji aur aap kholna nahi chahte: school ki grade reports, utility statements, science data, survey results.
+Is heading mein bataya gaya hai: Har wo kaam jahan aap ke paas numbers ki file ho aur sawal poochna ho.
+Maan lein aap ke paas 2 files hain:
+File A: Poore saal ki sales (January se December).
+File B: Sirf October se December ki sales.
+File B ka data File A ke andar pehle se maujood hai. Agar dono AI ko denge aur kuch nahi likhenge, to AI sochega ke yeh do alag alag data hain, aur October se December ki sales do baar jama kar dega. Total ghalat aayega.
+Hal: AI ko ek line likh kar bata dein:
+“File A poore saal ka data hai. File B sirf uska hissa hai, isay totals mein mat ginna.”
+Iska matlab: Jo cheez doosri file mein dohrayi gayi ho, uska label laga dein, taake AI usay do baar na gine.
+6. Code chalne ke baad bhi kya dobara dekhna hai
+Pehli baat: Haan, AI bhi ghalti kar sakta hai. Isi liye is point mein likha hai ke check karna zaroori hai, aur check insaan (aap) karti hain.
+“Junior analyst” ka matlab: Jaise ek tez naya employee jo zyada tar kaam sahi karta hai, lekin kabhi kabhi ghalti bhi karta hai. Is liye boss (aap) uska kaam dekhti hain.
+Check kyun zaroori hai: AI ka andaze wala jawab bilkul waisa hi lagta hai jaisa asli hisaab ka jawab. Dekhne se farq nahi pata chalta.
+“Ghalti data ke baare mein sikhati hai” ka matlab: Kabhi AI ki ghalti AI ki apni wajah se nahi hoti, balke aap ke data mein masla hota hai, jaise column ka naam saaf nahi, ya data double hai. Jab aap ghalti pakadti hain, to aap ko apne data ka woh masla pata chal jata hai.
+
+
 
 
 
