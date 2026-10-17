@@ -396,6 +396,24 @@ Pehle se record shuda (HeyGen, Synthesia, D-ID): kai zabanon mein training ke li
 Live wale (Tavus waghera): kam khatre ke kaam, jaise customer ke aam sawaal (FAQ) chhantna.
 Abhi roz ki aadat nahi. Jab kaam ko text ke bajaye chehra chahiye ho to ek baar try karein.
 Is heading mein bataya gaya hai: Aane wale waqt mein alag alag inputs mix hon ge, aur video avatars abhi sirf experiment ke liye hain.
+Concept 9: Building small apps with one prompt
+(Part 3: Beyond text)
+Exam mein scenario aaye ke “ek chhota tool chahiye, kaun sa tareeqa sahi hai”, to is concept se aap hadd (limit) pehchan sakengi.
+1. Pehle baat: kya ban sakta hai
+AI ek prompt se chhote games, websites aur tools bana sakta hai.
+Bade software nahi, lekin chhoti kaam ki cheezein ab un logon ke bhi haath mein hain jinhon ne kabhi code nahi likha.
+Is heading mein bataya gaya hai: Ek prompt se chhoti app ban sakti hai, bade software nahi.
+2. App kahan chalti hai (Artifact)
+Teeno bade tools (Claude, ChatGPT, Gemini) chhoti app chat ke andar hi, side panel mein dikha dete hain, aap us par click kar ke use kar sakte hain.
+Side panel mein sirf preview nahi hota. Wo ek artifact hota hai. Artifact (chat se bana hua asli chalne wala object): aap isay edit kar sakte hain, link se share kar sakte hain, embed kar sakte hain, ya code download kar sakte hain.
+Claude is feature ko Artifacts kehta hai. ChatGPT aur Gemini isay Canvas kehte hain.
+Do faide:
+Artifact kisi ko dene ke liye poori chat bhejna zaroori nahi. Zyada tar tools isay public link par daal dete hain jise kholne ke liye account nahi chahiye.
+Artifact wahin update hota hai. Aap kahein “button bara karo”, to tool jo bana hai usi ko edit karta hai, naya dobara nahi banata.
+Is se aage 3 qareebi qisme hain:
+AI app-builders (v0, Bolt, Lovable): saada zaban mein bayan se poora web project bana dete hain.
+Command-line coding agents (Claude Code, OpenCode): asal codebase lete hain, kai files edit karte hain, tests chalate hain.
+File-aware desktop apps (Cowork, OpenWork): aap ki apni files par permission ke saath kaam karte hain. Inka zikar Concept 11 mein hai.
 
 
 
