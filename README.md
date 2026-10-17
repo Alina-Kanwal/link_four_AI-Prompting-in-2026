@@ -440,6 +440,11 @@ Input: lafz screen par aate hain, khiladi unhein neeche pahunchne se pehle type 
 Output: peela theme, ek pyari billi jo sahi lafz par khush ho, aur levels ke saath badhti raftaar.
 Natija: perfect nahi aur pehli koshish mein nahi, lekin ek ghante ke andar “bachche ke liye kaafi acha” ban gaya.
 Iska matlab: Asal skill coding nahi, saaf brief likhna aur rounds mein behtar karna hai.
+//////////////////////////////////Concept 10: Data analysis (model code likhta aur chalata hai)
+(Part 3: Beyond text)
+Exam mein scenario aaye ke “AI ne numbers bataye, kya un par bharosa karein”, to is concept se aap pehchan sakengi ke jawab asli calculation se aaya ya sirf andaze se.
+1. Code execution kya hai
+
 
 
 
