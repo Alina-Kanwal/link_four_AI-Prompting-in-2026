@@ -207,6 +207,9 @@ ChatGPT: har project mein 5 files tak.
 Google: Notebooks aur NotebookLM dono free.
 Scenario trigger (paper mein ye symptom dikhe to):
 AI ka jawab generic hai: context missing hai, files, limits ya audience attach karein.
+Generic jawab: aap ne likha “email likho.” AI ne aam si email likhi jo kisi ke liye bhi ho sakti hai.
+Wajah: AI ko pata hi nahi tha ke email kis ko jaani hai, kitni lambi, kis lehje mein.
+Hal (context dena)
 Lamba chat kai topics par chal raha hai aur quality gir rahi hai: naya chat.
 Wohi files baar baar paste ho rahi hain: Project.
 AI har chat mein wohi ghalat andaza lagata hai: memory theek karein.
