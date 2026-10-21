@@ -112,7 +112,6 @@ Constraints ke saath plan banana ho: “Lisbon ka 4-day trip, 6 saal ke bachay k
 Photo ke saath sawal ho: “Mere tomato plant ke patte peelay kyun ho rahe hain?” Photo attach karne se AI behtar hai.
 “Kal ka weather” ke liye dono theek hain.
 Web-search results behtar karne ki 3 chhoti aadatein (har web-search prompt mein paste karein):
-Web-search results behtar karne ki 3 chhoti aadatein (har web-search prompt mein paste karein):
 Trusted sources ke naam likhein: “WHO, FDA aur peer-reviewed studies use karo, forums nahi.”
 Har claim ke baad source maangein: “Har claim ke baad source cite karo.”
 Unchecked cheez par mark lagwayein: “Agar koi claim cited sources se support nahi hota to usay ‘unverified’ mark karo.”
@@ -140,13 +139,12 @@ Ek hi sawal, 3 briefings, 3 tones. Isi liye AI aap ke rude hone par bhi polite r
 har model alag data aur training se bana hai, is liye uski taqat (reasoning, coding, language) alag rehti hai.
 Teeno tools alag kyun lagte hain: Personality model mein nahi, company ki instructions mein hai. Claude careful aur honest, ChatGPT warm aur helpful, Gemini short aur sourced.
 Exam ke liye yaad rakhein: tone aur refusals ka farq system prompt se aata hai, kaam ki quality ka
-wo instuctions jo hum khud Settings mein ja kar khud likhni hoti hain like ""I woki in custom suppot", wo chat ke andar bolne se khud save nahi hoti.
+custom instuctions: wo instuctions jo hum khud Settings mein ja kar khud likhni hoti hain like ""I woki in custom suppot", wo chat ke andar bolne se khud save nahi hoti.
 Claude mein Personal preferences, ChatGPT mein Personalization > Custom instructions, Gemini mein Personalization settings m save hongi.
 Apni layer chhoti rakhein: sirf wo likhein jo AI khud nahi nikal sakta (job, audience, hard limits), aur har kuch mahine mein wo lines delete karein jin ke bina farq nahi parta. Anthropic ne July 2026 mein apni zyada tar standing instructions delete kin aur quality kam nahi hui.
 Bare vs context-rich prompt = sirf sawal likhna “bare” hai, aur sawal ke saath apni files ya details dena “context-rich” hai, aur dusre se jawab aap ke hisaab se aata hai.
 Teacher ka example: Lesson plan ke saath syllabus, graded worksheets aur test format attach kiye, to plan generic(normal) se class k lea kaam ka ban gaya.
 Prompt bhejne se pehle 5 cheezein check karein Document (If neceesay then atach),  Limit (how lenghty text),  koi poani bt (like custome nrz hy) , outcome k shakl (like table, gmail ) , kis tk outcome jayega (boss, custoimer) 
-Sirf kaam ki cheezein dein
 Sirf kaam ki cheezein dein
 Zaroorat se zyada files na dein, kyunke har extra file AI ko confuse kar sakti hai.
 Ek jaisi dohri files hata dein.
