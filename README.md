@@ -500,7 +500,7 @@ Is heading mein bataya gaya hai: Pehle AI se data ki tashreeh aur 3 chart ke pla
 - **Sab se chhoti permission** dein (sirf zaroori folder). "Full disk access" nahi.
 - Permission **track record** se badhti hai, company par bharosa se nahi.
 **5. Permission ladder (chhoti se bari)**
-- Sirf parhna (ek chhota folder) → ek folder mein parhna aur likhna → poora project parhna, chhote subfolder mein likhna → kaam-wari permission.
+- AI ko ijazat chhote se bade ki taraf deni chahiye: pehle sirf ek chhota folder parhna, phir ek folder mein parhna aur likhna, phir poora project parhna magar likhna sirf ek chhote subfolder mein, aur aakhir mein kaam ke mutabiq mukhtalif permissions.
 - "Jo chahiye karo" jaisi khuli ijazat se **hamesha inkar.**
 **6. Example:** Consultant ne 240 PDFs ke folder par kaha "scheme batao, **abhi kuch mat hilao**". Plan dekha, theek kiya, phir manzoori di.
 **Iska matlab:** Pehle plan, phir aap ki manzoori.
